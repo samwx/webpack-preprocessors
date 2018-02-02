@@ -2,7 +2,7 @@
 
 A webpack project with **LESS**, **SASS** and **STYLUS** configured.
 
-# USAGE
+# Usage
 * Clone or download this repo;
 * `npm install`
 * `npm start` to watch changes. Project will run on `http://localhost:8080`
