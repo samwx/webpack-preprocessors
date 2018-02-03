@@ -1,0 +1,11 @@
+@import '../mixins/module';
+
+form {
+  input {
+    @include input-placeholder {
+      color: red;
+    }
+
+    @include pseudo;
+  }
+}

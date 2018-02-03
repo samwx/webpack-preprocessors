@@ -1,4 +1,4 @@
 // import './style.sass'
-import './style.scss'
+import './assets/scss/main.scss'
 // import './style.less'
 // import './style.styl'

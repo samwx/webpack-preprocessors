@@ -1,0 +1,7 @@
+// Loop structures
+
+@for $i from 1px to 10px {
+  .border-#{$i} {
+    border: $i solid blue;
+  }
+}
