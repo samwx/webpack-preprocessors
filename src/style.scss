@@ -1,6 +1,37 @@
+// @import './style2.scss';
+
 // Loop structures
-@for $i from 1px to 10px {
-  .border-#{$i} {
-    border: $i solid blue;
+// @for $i from 1px to 10px {
+//   .border-#{$i} {
+//     border: $i solid blue;
+//     @include myMixin(#000, #fff, 25px);
+//   }
+// }
+
+
+body {
+  background: #000;
+
+}
+
+header {
+  color: #fff;
+
+  #nav {
+      margin-left: 10px;
+
+      .menu {
+          margin-top: 50px;
+          
+          .item {
+              position: relative;
+              z-index: 99;
+
+              a {
+                  font-weight: bold;
+                  font-size: 18px;
+              }
+          }
+      }
   }
 }

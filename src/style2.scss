@@ -1,0 +1,12 @@
+body {
+  background: #000;
+}
+
+@mixin myMixin($background, $color, $margin) {
+  background: $background;
+  color: $color;
+
+  @if $margin > 10px {
+    margin: $margin
+  }
+}
